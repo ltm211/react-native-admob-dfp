@@ -1,6 +1,6 @@
-# react-native-admob [![npm](https://img.shields.io/npm/v/react-native-admob.svg)](https://www.npmjs.com/package/react-native-admob) [![npm (next)](https://img.shields.io/npm/v/react-native-admob/next.svg)](https://www.npmjs.com/package/react-native-admob)
-
-### ⚠️ Please note, the master branch tracks development of version 2 of this library, which is currently in beta. For version 1 please check out the [1.x branch](https://github.com/sbugert/react-native-admob/tree/1.x).
+# react-native-admob-dfp [![npm](https://img.shields.io/npm/v/react-native-admob.svg)](https://www.npmjs.com/package/react-native-admob-dfp)
+# react-native-admob-dfp
+Forked from Simon Bugert's [react-native-admob](https://github.com/sbugert/react-native-admob/commit/a6d1909f54fdf53d0912bc56c21ca77ae40a70cf), and added implementing Google Mobile Ads' DFPInterstitial.
 
 A react-native module for Google AdMob Banners, Interstitials, and Rewarded Videos, and also DFP Banners.
 
