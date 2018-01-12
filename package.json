@@ -1,13 +1,13 @@
 {
   "name": "react-native-admob-dfp",
-  "version": "2.0.0-beta.3",
+  "version": "2.0.0-beta.3.1",
   "description": "A react-native component for Google AdMob/DFP banners and interstitials",
   "author": "Fatih Tekcan",
   "main": "index.js",
   "license": "BSD-2-Clause",
   "repository": {
     "type": "git",
-    "url": "git@github.com:fmtekcan/react-native-admob.git"
+    "url": "git+ssh://git@github.com/fmtekcan/react-native-admob-dfp.git"
   },
   "dependencies": {
     "prop-types": "^15.5.10"
@@ -19,5 +19,12 @@
     "babel-eslint": "^7.2.3",
     "eslint": "^4.3.0",
     "eslint-plugin-react": "^7.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/fmtekcan/react-native-admob-dfp/issues"
+  },
+  "homepage": "https://github.com/fmtekcan/react-native-admob-dfp#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
