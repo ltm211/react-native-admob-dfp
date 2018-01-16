@@ -11,11 +11,11 @@ You can use npm or Yarn to install the latest beta version:
 
 **npm:**
 
-    npm i --save react-native-admob@next
+    npm i --save react-native-admob-dfp
 
 **Yarn:**
 
-    yarn add react-native-admob@next
+    yarn add react-native-admob-dfp
 
 In order to use this library, you have to link it to your project first. There's excellent documentation on how to do this in the [React Native Docs](https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content).
 
