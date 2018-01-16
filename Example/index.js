@@ -15,7 +15,7 @@ import {
   AdMobRewarded,
   AdMobInterstitial,
   PublisherBanner,
-} from 'react-native-admob';
+} from 'react-native-admob-dfp';
 
 const BannerExample = ({ style, title, children, ...props }) => (
   <View {...props} style={[styles.example, style]}>

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06624D192008B3CA00AEF88F /* RNDFPInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 06624D182008B3CA00AEF88F /* RNDFPInterstitial.m */; };
+		061E4C09200DDC510016A851 /* RNDFPInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 061E4C08200DDC510016A851 /* RNDFPInterstitial.m */; };
 		0CB8C04B1D913E00002BC3EF /* RNDFPBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB8C04A1D913E00002BC3EF /* RNDFPBannerView.m */; };
 		0CB8C04E1D9143A6002BC3EF /* RNDFPBannerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB8C04D1D9143A6002BC3EF /* RNDFPBannerViewManager.m */; };
 		5E86A6471F126FCE008013EB /* RCTConvert+GADAdSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E86A6461F126FCE008013EB /* RCTConvert+GADAdSize.m */; };
@@ -30,8 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		06624D172008B3CA00AEF88F /* RNDFPInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDFPInterstitial.h; sourceTree = "<group>"; };
-		06624D182008B3CA00AEF88F /* RNDFPInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDFPInterstitial.m; sourceTree = "<group>"; };
+		061E4C07200DDC510016A851 /* RNDFPInterstitial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNDFPInterstitial.h; sourceTree = SOURCE_ROOT; };
+		061E4C08200DDC510016A851 /* RNDFPInterstitial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNDFPInterstitial.m; sourceTree = SOURCE_ROOT; };
 		0CB8C0491D913E00002BC3EF /* RNDFPBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDFPBannerView.h; sourceTree = SOURCE_ROOT; };
 		0CB8C04A1D913E00002BC3EF /* RNDFPBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDFPBannerView.m; sourceTree = SOURCE_ROOT; };
 		0CB8C04C1D9143A6002BC3EF /* RNDFPBannerViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDFPBannerViewManager.h; sourceTree = SOURCE_ROOT; };
@@ -82,8 +82,6 @@
 				0CB8C04C1D9143A6002BC3EF /* RNDFPBannerViewManager.h */,
 				0CB8C04D1D9143A6002BC3EF /* RNDFPBannerViewManager.m */,
 				A96DA7801C146DA600FC639B /* RNGADBannerView.h */,
-				06624D172008B3CA00AEF88F /* RNDFPInterstitial.h */,
-				06624D182008B3CA00AEF88F /* RNDFPInterstitial.m */,
 				A96DA7811C146DA600FC639B /* RNGADBannerView.m */,
 				A96DA7821C146DA600FC639B /* RNGADBannerViewManager.h */,
 				A96DA7831C146DA600FC639B /* RNGADBannerViewManager.m */,
@@ -95,6 +93,8 @@
 				A90F2F8B1D50AEF200F2A2E3 /* RNAdMobRewarded.m */,
 				5E86A6451F126FCE008013EB /* RCTConvert+GADAdSize.h */,
 				5E86A6461F126FCE008013EB /* RCTConvert+GADAdSize.m */,
+				061E4C07200DDC510016A851 /* RNDFPInterstitial.h */,
+				061E4C08200DDC510016A851 /* RNDFPInterstitial.m */,
 			);
 			path = RNAdMobManager;
 			sourceTree = "<group>";
@@ -160,8 +160,8 @@
 				0CB8C04B1D913E00002BC3EF /* RNDFPBannerView.m in Sources */,
 				A90F2F8C1D50AEF200F2A2E3 /* RNAdMobRewarded.m in Sources */,
 				A96DA7841C146DA600FC639B /* RNGADBannerView.m in Sources */,
-				06624D192008B3CA00AEF88F /* RNDFPInterstitial.m in Sources */,
 				A96DA7851C146DA600FC639B /* RNGADBannerViewManager.m in Sources */,
+				061E4C09200DDC510016A851 /* RNDFPInterstitial.m in Sources */,
 				5E86A6471F126FCE008013EB /* RCTConvert+GADAdSize.m in Sources */,
 				0CB8C04E1D9143A6002BC3EF /* RNDFPBannerViewManager.m in Sources */,
 			);

@@ -57,14 +57,14 @@ RCT_EXPORT_METHOD(requestAd:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromise
 {
     _requestAdResolve = nil;
     _requestAdReject = nil;
-
+    
     if ([_interstitial hasBeenUsed] || _interstitial == nil) {
         _requestAdResolve = resolve;
         _requestAdReject = reject;
-
+        
         _interstitial = [[DFPInterstitial alloc] initWithAdUnitID:_adUnitID];
         _interstitial.delegate = self;
-
+        
         DFPRequest *request = [DFPRequest request];
         request.testDevices = _testDevices;
         [_interstitial loadRequest:request];

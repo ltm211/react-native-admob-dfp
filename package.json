@@ -1,6 +1,6 @@
 {
   "name": "react-native-admob-dfp",
-  "version": "2.0.0-beta.3.1.1",
+  "version": "2.0.0-beta.3.2",
   "description": "A react-native component for Google AdMob/DFP banners and interstitials",
   "author": "Fatih Tekcan",
   "main": "index.js",
