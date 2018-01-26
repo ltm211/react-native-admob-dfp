@@ -35,7 +35,7 @@ import {
   AdMobInterstitial,
   PublisherBanner,
   AdMobRewarded,
-} from 'react-native-admob'
+} from 'react-native-admob-dfp'
 
 // Display a banner
 <AdMobBanner
