@@ -134,7 +134,7 @@ public class RNDFPInterstitialAdModule extends ReactContextBaseJavaModule {
                             adRequestBuilder.addTestDevice(testDevices[i]);
                         }
                     }
-                    AdRequest adRequest = adRequestBuilder.build();
+                    PublisherAdRequest adRequest = adRequestBuilder.build();
                     mInterstitialAd.loadAd(adRequest);
                 }
             }
