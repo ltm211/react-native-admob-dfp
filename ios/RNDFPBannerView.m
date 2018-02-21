@@ -52,7 +52,7 @@
 #pragma clang diagnostic pop
 
 - (void)loadBanner {
-    GADRequest *request = [GADRequest request];
+    DFPRequest *request = [DFPRequest request];
     request.testDevices = _testDevices;
     [_bannerView loadRequest:request];
 }
@@ -80,7 +80,7 @@
 # pragma mark GADBannerViewDelegate
 
 /// Tells the delegate an ad request loaded an ad.
-- (void)adViewDidReceiveAd:(DFPBannerView *)adView
+- (void)adViewDidReceiveAd:(GADBannerView *)adView
 {
     if (self.onSizeChange) {
         self.onSizeChange(@{
@@ -93,7 +93,7 @@
 }
 
 /// Tells the delegate an ad request failed.
-- (void)adView:(DFPBannerView *)adView
+- (void)adView:(GADBannerView *)adView
 didFailToReceiveAdWithError:(GADRequestError *)error
 {
     if (self.onAdFailedToLoad) {
@@ -103,7 +103,7 @@ didFailToReceiveAdWithError:(GADRequestError *)error
 
 /// Tells the delegate that a full screen view will be presented in response
 /// to the user clicking on an ad.
-- (void)adViewWillPresentScreen:(DFPBannerView *)adView
+- (void)adViewWillPresentScreen:(GADBannerView *)adView
 {
     if (self.onAdOpened) {
         self.onAdOpened(@{});
@@ -111,7 +111,7 @@ didFailToReceiveAdWithError:(GADRequestError *)error
 }
 
 /// Tells the delegate that the full screen view will be dismissed.
-- (void)adViewWillDismissScreen:(__unused DFPBannerView *)adView
+- (void)adViewWillDismissScreen:(__unused GADBannerView *)adView
 {
     if (self.onAdClosed) {
         self.onAdClosed(@{});
@@ -120,7 +120,7 @@ didFailToReceiveAdWithError:(GADRequestError *)error
 
 /// Tells the delegate that a user click will open another app (such as
 /// the App Store), backgrounding the current app.
-- (void)adViewWillLeaveApplication:(DFPBannerView *)adView
+- (void)adViewWillLeaveApplication:(GADBannerView *)adView
 {
     if (self.onAdLeftApplication) {
         self.onAdLeftApplication(@{});
