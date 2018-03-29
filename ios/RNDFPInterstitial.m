@@ -123,6 +123,7 @@ RCT_EXPORT_METHOD(isReady:(RCTResponseSenderBlock)callback)
         [self sendEventWithName:kEventAdFailedToLoad body:jsError];
     }
     _requestAdReject(@"E_AD_REQUEST_FAILED", error.localizedDescription, error);
+    _interstitial = nil;
 }
 
 - (void)interstitialWillPresentScreen:(__unused GADInterstitial *)ad
