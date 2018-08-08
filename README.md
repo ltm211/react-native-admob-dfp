@@ -5,6 +5,8 @@ A react-native module for Google AdMob Banners, Interstitials, and Rewarded Vide
 
 The banner types are implemented as components while the interstitial and rewarded video have an imperative API.
 
+add Custom Ad size support 
+
 ## Installation
 
 You can use npm or Yarn to install the latest beta version:
